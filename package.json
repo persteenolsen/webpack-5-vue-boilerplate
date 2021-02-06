@@ -1,0 +1,58 @@
+{
+  "name": "webpack-5-vue-boilerplate",
+  "version": "2.0.0",
+  "description": "A webpack 5 boilerplate with Vue.js",
+  "main": "main.js",
+  "author": "Per Olsen",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.dev.js --progress",
+    "build": "webpack --config config/webpack.prod.js",
+    "prod": "http-server ./dist -a localhost -p 8000 -o"
+  },
+  "keywords": [
+    "webpack",
+    "webpack 5",
+    "webpack boilerplate"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "html-webpack-plugin": "^5.0.0-alpha.7",
+    "http-server": "^0.12.3",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/persteenolsen/webpack-5-vue-boilerplate"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9"
+  }
+}
