@@ -4,7 +4,7 @@
  
   <h1>Webpack 5 with Vue.js</h1>
   
- <img  width="150px" alt="Vue" src="../../src/images/vuelogo.png">
+ <img  width="150px" alt="Vue" src="../../src/images/vue.png">
   
  </div>
   

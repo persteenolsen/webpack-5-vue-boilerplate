@@ -1,7 +1,6 @@
 import AppHome from './components/AppHome.vue';
-import AppMyInfo from './components/AppMyInfo.vue';
 import AppAbout from './components/AppAbout.vue';
-
+import AppMyInfo from './components/AppMyInfo.vue';
 import AppList from './components/AppList.vue';
 
 
@@ -23,7 +22,7 @@ const routes = [
     },
 	 {
         path: '/employee',
-        name: 'Employees',
+        name: 'Web API',
         component: AppList
     }
 ];
