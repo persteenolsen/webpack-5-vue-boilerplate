@@ -2,9 +2,13 @@
   
  <div>
  
-  <h1>Webpack 5 with Vue.js</h1>
+  <h1>Welcome</h1>
   
  <img  width="150px" alt="Vue" src="../../src/images/vue.png">
+ 
+ <br />
+				
+ <h2>Webpack 5 configured from scratch to serve Vue.js</h2>
   
  </div>
   
