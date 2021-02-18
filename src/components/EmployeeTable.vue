@@ -1,5 +1,6 @@
 <template>
-  <div id="employee-table">
+
+  <div id="employee-table" class="table-responsive">
     <p
       v-if="employees.length < 1"
       class="empty-table"
