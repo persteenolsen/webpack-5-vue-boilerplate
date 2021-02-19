@@ -3,6 +3,8 @@ import AppAbout from './components/AppAbout.vue';
 import AppMyInfo from './components/AppMyInfo.vue';
 import AppList from './components/AppList.vue';
 
+import AppError from './components/AppError.vue';
+
 
 const routes = [
     {
@@ -20,10 +22,15 @@ const routes = [
         name: 'Per Steen Olsen',
         component: AppMyInfo
     },
-	 {
+	{
         path: '/employee',
         name: 'Web API',
         component: AppList
+    },
+	{
+        path: '/*',
+        name: 'Secret',
+        component: AppError
     }
 ];
 

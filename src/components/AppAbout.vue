@@ -14,6 +14,7 @@
                 				                 
 			    Showing some of the power of Webpack <br />
                 Showing routing by Vue.js <br />
+				Custom 404 Error Page. Click the Secret menu link for a demo <br />
 			    Serving static assets like images, styles and fonts <br />
 			    Consuming JSON data from a Demo / Test Web API <br /> <br />
                
