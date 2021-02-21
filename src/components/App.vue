@@ -33,5 +33,8 @@
 		 
     <router-view />
 	
+	<br />
+	 A demo of a single page application made in Vue.js, PostCSS and Bootstrap 
+	 
   </div>
 </template>
