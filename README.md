@@ -18,11 +18,17 @@ npm prod
 # Features
 
 - [webpack](https://webpack.js.org/)
+- [vue.js](https://vuejs.org/)
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [PostCSS](https://postcss.org/)
 
 # Dependencies
+
+# Vue.js
+
+- [`vue`](https://www.npmjs.com/package/vue) - A framework for making user interfaces
+- [`vue-router`](https://www.npmjs.com/package/vue-router) - Routing in Vue
 
 # webpack
 
@@ -49,6 +55,12 @@ npm prod
 - [`@babel/plugin-transform-async-to-generator`] 
 (https://babeljs.io/docs/en/babel-plugin-transform-async-to-generator) - To use async and generators
 
+
+# Vue Loaders
+
+- [`vue-loader`](https://www.npmjs.com/package/vue-loader) - webpack loader for Vue Single-File Components
+- [`vue-style-loader`](https://www.npmjs.com/package/vue-style-loader) - Load styles into the DOM
+- [`vue-template-compiler`](https://www.npmjs.com/package/vue-template-compiler) - Pre compilation of Vue 2.0 templates into render functions. 
 
 # Loaders
 
