@@ -23,8 +23,7 @@
 
 <body>
   <noscript>
-    <strong>This vue app do not work properly without JavaScript enabled. Please enable it to
-      continue.</strong>
+    <strong>This vue app do not work properly without JavaScript enabled. Please enable it to continue.</strong>
   </noscript>
   
    
@@ -62,6 +61,19 @@
 			 </div>
 		</div>
 	</div>
+	
+	
+	<script type="application/javascript">
+      
+	  // Showing a message to the User if not using Google Chrome !
+	  if (  ! (/Chrome/.test(window.navigator.userAgent ))){ 
+	  
+	      //window.location.href = '/ie.html';
+	      // Setting the GUI with the value returned from the Web API
+	      document.getElementById("app").innerHTML = "<br /><b>Please try the Google Chrome Browser when using this Vue.js App !</b>";
+	     }
+		 
+	</script>
 
 </body>
 
