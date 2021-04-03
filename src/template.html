@@ -55,7 +55,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 offset-sm-3">
-			
+			   
+			   <div id="nocrome"></div>
                <div id="app"></div>
 			   
 			 </div>
@@ -68,9 +69,9 @@
 	  // Showing a message to the User if not using Google Chrome !
 	  if (  ! (/Chrome/.test(window.navigator.userAgent ))){ 
 	  
-	      //window.location.href = '/ie.html';
+	     // alert( 'Please try the Google Chrome Browser when using the Web API in this Vue.js App !' );
 	      // Setting the GUI with the value returned from the Web API
-	      document.getElementById("app").innerHTML = "<br /><b>Please try the Google Chrome Browser when using this Vue.js App !</b>";
+	      document.getElementById("nocrome").innerHTML = "<br /><b>Please try the Google Chrome Browser when using this Vue.js App !</b>";
 	     }
 		 
 	</script>

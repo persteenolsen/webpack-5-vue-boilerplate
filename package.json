@@ -52,7 +52,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
+    "core-js": "^3.10.0",
     "vue": "^2.6.12",
-    "vue-router": "^3.4.9"
+    "vue-router": "^3.4.9",
+    "whatwg-fetch": "^3.6.2"
   }
 }

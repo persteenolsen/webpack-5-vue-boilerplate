@@ -7,16 +7,17 @@
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                18-02-2021 <br /> <br />
+                03-04-2021 <br /> <br />
                 
 				
                 <b>Main functionality</b> <br />
                 				                 
 			    Showing some of the power of Webpack <br />
                 Showing routing by Vue.js <br />
+				Support for IE 11 <br />
 				Custom 404 Error Page. Click the Secret menu link for a demo <br />
 			    Serving static assets like images, styles and fonts <br />
-			    Consuming JSON data from a Demo / Test Web API <br /> <br />
+			    Simulate GET, POST, PUT and DELETE towards a test Web API <br /> <br />
                
 			   
                 <b>Module Bundler</b> <br />

@@ -9,7 +9,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   // Where webpack looks to start building the bundle
-  entry: [ paths.src + '/main.js'],
+  entry: [ 'whatwg-fetch', paths.src + '/main.js'],
   
   resolve: {
         extensions: [ '.js', '.vue' ],
@@ -26,6 +26,10 @@ module.exports = {
     filename: '[name].bundle.js',
     publicPath: '/',
   },
+  
+   // Magic happen here trnaanspiling to es5 to partly support older browser like IE11 / 
+  // Note: This statement is not needed in webpack 4
+  target: ['web', 'es5'], 
 
   // Customize the webpack build process
   plugins: [
