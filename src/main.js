@@ -6,6 +6,10 @@ import VueRouter from 'vue-router';
 import App from './components/App.vue';
 import routes from './routes';
 
+
+// Note: Using an Alias in Webpack
+// import 'styles/index.scss';
+
 Vue.use(VueRouter);
 
 // Configure router
@@ -20,3 +24,6 @@ new Vue({
     render: h => h(App),
     router
 });
+
+// module.hot.accept();
+
