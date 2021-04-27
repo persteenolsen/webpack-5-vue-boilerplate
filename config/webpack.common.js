@@ -27,10 +27,7 @@ module.exports = {
     publicPath: '/',
   },
   
-   // Magic happen here trnaanspiling to es5 to partly support older browser like IE11 / 
-  // Note: This statement is not needed in webpack 4
-  // target: ['web', 'es5'], 
-
+  
   // Customize the webpack build process
   plugins: [
   
@@ -74,7 +71,9 @@ module.exports = {
       {
         test: /\.(scss|css)$/,
         use: [
-          'vue-style-loader',
+          // Note: Only style-loader works for me !!!
+		  // 'vue-style-loader',
+		  'style-loader',
           {loader: 'css-loader', options: {sourceMap: true, importLoaders: 1}},
           {loader: 'postcss-loader', options: {sourceMap: true}},
           {loader: 'sass-loader', options: {sourceMap: true}},

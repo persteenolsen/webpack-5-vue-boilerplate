@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 15;
   width: 100vw;
 }
 
@@ -18,10 +18,15 @@ body {
   justify-content: center;
   flex-direction: column;
   align-self: center;
-  height: 100vh;
+ // height: 100vh;
 }
 
 h1 {
-  text-align: center;
-  max-width: 90vw;
+   color: green;
+   text-align: left;
+   max-width: 90vw;
+}
+
+.test {
+    color: red;
 }

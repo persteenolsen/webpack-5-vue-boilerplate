@@ -7,9 +7,8 @@
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                26-04-2021 <br /> <br />
-                
-				
+                27-04-2021 <br /> <br />
+                				
                 <b>Main functionality</b> <br />
                 				                 
 			    Showing some of the power of Webpack <br />
