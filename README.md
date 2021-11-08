@@ -38,6 +38,18 @@ Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev serve
 - [`vue`](https://www.npmjs.com/package/vue) - A framework for making user interfaces
 - [`vue-router`](https://www.npmjs.com/package/vue-router) - Routing in Vue
 
+# Babel
+
+- [`@babel-runtime`](https://babeljs.io/docs/en/babel-runtime) - Babel Runtime for dev babel/plugin-transform-runtime.
+
+# Other 
+
+- [`core-js`](https://www.npmjs.com/package/core-js) - Main Library with polyfills for older Browsers
+- [`whatwg-fetch`](https://www.npmjs.com/package/whatwg-fetch) - For making promise based web request progammitically
+
+
+#  devDependencies
+
 # webpack
 
 - [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
