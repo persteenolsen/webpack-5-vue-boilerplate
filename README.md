@@ -56,7 +56,6 @@ Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev serve
 - [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
 - [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
 - [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration
-- [`cross-env`](https://github.com/kentcdodds/cross-env) - Cross platform configuration
 
 # Babel
 
