@@ -4,16 +4,24 @@ Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev serve
 
 # Usage
 
-# Development server:
-npm start
+# Installing
 
-You can view the development server at `localhost:8080`.
+- Make sure you have a new version of Node installed
+- Download the code by zip or fork
+- Run the command npm install by the command promt
+
+# Development server:
+
+- npm start
+- You can view the development server at `localhost:8080`.
 
 # Production build:
-npm run build
+
+- npm run build
 
 # To view the build use http-server:
-npm prod
+
+- npm prod
 
 # Features
 
@@ -40,20 +48,13 @@ npm prod
 
 # Babel
 
-- [`@babel/core`]
-(https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
-- [`@babel/plugin-proposal-class-properties`]
-(https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties on a class
-- [`@babel/preset-env`]
-(https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
-- [`@babel/babel-plugin-transform-runtime`]
-(https://babeljs.io/docs/en/babel-plugin-transform-runtime) - Helper for Babel to use async/await
-- [`@babel/plugin-proposal-object-rest-spread`] 
-(https://babeljs.io/docs/en/babel-plugin-proposal-object-rest-spread) - For using rest
-- [`@babel/plugin-transform-arrow-functions`] 
-(https://babeljs.io/docs/en/babel-plugin-transform-arrow-functions) - For using arrow funtions
-- [`@babel/plugin-transform-async-to-generator`] 
-(https://babeljs.io/docs/en/babel-plugin-transform-async-to-generator) - To use async and generators
+- [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to ES5
+- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
+- [`@babel/plugin-transform-runtime`](https://babeljs.io/docs/en/babel-plugin-transform-runtime) - Babel to use async/await
+- [`@babel/plugin-proposal-object-rest-spread`](https://babeljs.io/docs/en/plugin-proposal-object-rest-spread) - Babel helper
+- [`@babel/plugin-transform-arrow-functions`](https://babeljs.io/docs/en/plugin-transform-arrow-functions) - For arrow functions
+- [`@babel/plugin-transform-async-to-generator`](https://babeljs.io/docs/en/plugin-transform-async-to-generator) - Generator for async/await
+- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties on a class
 
 
 # Vue Loaders
@@ -66,9 +67,9 @@ npm prod
 
 - [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files - Babel/webpack
 - [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-  - [`node-sass`](https://github.com/sass/node-sass) - Node Sass
+  [`node-sass`](https://github.com/sass/node-sass) - Node Sass
 - [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
-  - [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
+- [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
 - [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
 - [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
 
@@ -79,6 +80,9 @@ npm prod
 - [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`css-minimizer-webpack-plugin`](https://webpack.js.org/plugins/css-minimizer-webpack-plugin/) - Optimize and minimize CSS assets
+- [`cross-env`](https://github.com/kentcdodds/cross-env) - Cross platform configuration
+- [`http-server`](https://www.npmjs.com/package/http-server) - HTTP server for testing the produktion build by running npm run prod
+
 
 # Author
 
