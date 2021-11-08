@@ -78,7 +78,7 @@ Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev serve
 
 - [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files - Babel/webpack
 - [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-  [`node-sass`](https://github.com/sass/node-sass) - Node Sass
+- [`node-sass`](https://github.com/sass/node-sass) - Node Sass
 - [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
 - [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
 - [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
