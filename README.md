@@ -1,4 +1,13 @@
-# Webpack 5 Vue.js Boilerplate
+
+<img align="left" src="https://github.com/domenicomonaco/minimalist-pugJS-boilerplate/blob/master/src/assets/img/logo.png?raw=true" width="64" />
+
+
+# Webpack 5 Vue.js JS BOILERPLATE 
+---
+MONK's Maintainers: **Domenico Monaco ([link](https://blog.domenicomonaco.it))** and **Tecnologie per Persone ([link](https://tecnologieperpersone.it))**
+
+> MONK's boilerplate are minimalist boilerplate, why MONKS says *'LESS IS MORE'*
+
 
 Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev server and an optimized production build.
 
