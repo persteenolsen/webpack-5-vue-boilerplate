@@ -1,17 +1,12 @@
-#### Part of "MONK's boilerplates"
-
-Minimalist boilerplates inspired to MONK's think *'LESS IS MORE'*
-
-### Sponsored by
-[<img align="left" src="https://github.com/domenicomonaco/minimalist-pugJS-boilerplate/blob/master/src/assets/img/logo.png?raw=true" height="54" />](https://blog.domenicomonaco.it)
- [<img src="https://github.com/domenicomonaco/minimalist-pugjs-boilerplate/blob/master/src/assets/img/tecnologie-per-persone-logo.png?raw=true" height="54" />](https://tecnologieperpersone.it)
- 
-BY **Domenico Monaco ([link](https://blog.domenicomonaco.it))** and **Tecnologie per Persone ([link](https://tecnologieperpersone.it))**
-
 
 # Webpack 5 Vue.js JS BOILERPLATE 
 ---
 Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev server and an optimized production build.
+
+### Sponsored by
+[<img align="left" style="margin:5px; "src="http://cdn.tecnologieperpersone.it/img/dmonaco_happy_hacking.png" height="64" />](https://blog.domenicomonaco.it)
+ [<img style="margin:5px;" src="http://cdn.tecnologieperpersone.it/img/tecnologie-per-persone-logo.png" height="64" />](https://tecnologieperpersone.it)
+
 
 # Usage
 
