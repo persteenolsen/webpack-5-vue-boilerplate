@@ -7,7 +7,7 @@
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 11-10-2023 <br /> <br />
+                - 14-02-2024 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
@@ -25,7 +25,11 @@
                 
                 - Manuel configuration of the Webpack 5 from scratch <br /> <br />
 				
+                 <b>Node Version Management</b> <br />
+
                 
+                - Volta <br /> <br /> 
+
 				<b>The Vue single page application - The frontend</b> <br />
             
                

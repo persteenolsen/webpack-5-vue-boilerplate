@@ -2,6 +2,9 @@
 
 Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev server and an optimized production build.
 
+# Issues
+- Needed to update vue-loader at the 14-02-2024 working with Node 14.23
+
 # Usage
 
 # Installing
