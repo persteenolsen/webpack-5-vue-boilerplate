@@ -7,7 +7,7 @@
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 14-02-2024 <br /> <br />
+                - 18-08-2024 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
