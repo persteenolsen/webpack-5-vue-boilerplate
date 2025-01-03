@@ -6,12 +6,12 @@
                 - This Vue single page application was made with a Webpack 5 configuration
                 <br/> <br/>
 				
-                <b>Last Updated</b>  <br />
-                - 18-08-2024 <br /> <br />
+                <b>Last Updated: </b>  <br />
+                - 03-01-2025 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
-                - Upgrading from Node 12.16 to 14.17<br />				
+                - Upgrading from Node 12.16 to 14.21.3<br />				
 			    - Showing some of the power of Webpack<br />
 				- Using Hot Reload / HMR by Webpack Dev Server <br />
                 - Showing routing by Vue.js <br />
