@@ -7,11 +7,11 @@
                 <br/> <br/>
 				
                 <b>Last Updated: </b>  <br />
-                - 03-01-2025 <br /> <br />
+                - 06-01-2025 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
-                - Upgrading from Node 12.16 to 14.21.3<br />				
+                - Upgrading Node from 12.16 => 14.21.3 => 20.18.1<br />				
 			    - Showing some of the power of Webpack<br />
 				- Using Hot Reload / HMR by Webpack Dev Server <br />
                 - Showing routing by Vue.js <br />

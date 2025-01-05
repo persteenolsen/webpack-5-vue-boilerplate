@@ -2,12 +2,13 @@
 
 Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev server and an optimized production build.
 
-Last updated: 03-01-2025
+Last updated: 06-01-2025
 
-Node Version: 14.21.3
+Node Version: 20.18.1
 
-# Issues
-- Needed to update vue-loader at the 14-02-2024 working with Node 14.21.3
+Solution / Issue:
+
+Updated with success all Packages to the latest except from Vue + Vue-router + Vue-loader ( version 15 used instead of 17 that is not working )
 
 # Usage
 
@@ -85,7 +86,7 @@ Node Version: 14.21.3
 
 - [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files - Babel/webpack
 - [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-- [`node-sass`](https://github.com/sass/node-sass) - Node Sass
+- [`sass`](https://github.com/sass) - Sass
 - [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
 - [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
 - [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
