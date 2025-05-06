@@ -2,7 +2,7 @@
 
 Webpack 5 boilerplate using Vue.js, Babel, PostCSS and Sass with a hot dev server and an optimized production build.
 
-Last updated: 05-01-2025
+Last updated: 06-05-2025
 
 Node Version: 20.18.1
 

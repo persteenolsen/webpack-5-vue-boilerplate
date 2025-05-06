@@ -6,8 +6,9 @@
                 - This Vue single page application was made with a Webpack 5 configuration
                 <br/> <br/>
 				
-                <b>Last Updated: </b>  <br />
-                - 05-01-2025 <br /> <br />
+                
+                <div class="test"><b>Last Updated: </b></div>
+                - 06-05-2025 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
