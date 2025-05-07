@@ -8,15 +8,15 @@
 				
                 
                 <div class="test"><b>Last Updated: </b></div>
-                - 06-05-2025 <br /> <br />
+                - 07-05-2025 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
-                - Upgrading Node from 12.16 => 14.21.3 => 20.18.1<br />				
+                - Upgrading Node from 12.16 => 14.21.3 => 20.18.1 => 22.15.0<br />				
 			    - Showing some of the power of Webpack<br />
 				- Using Hot Reload / HMR by Webpack Dev Server <br />
                 - Showing routing by Vue.js <br />
-				- Support for IE 11 <br />
+				- Partly support for older Browsers <br />
 				- Custom 404 Error Page. Click the Secret menu link for a demo <br />
 			    - Serving static assets like images, styles and fonts <br />
 			    - Simulate GET, POST, PUT and DELETE towards a test Web API <br /> <br />
