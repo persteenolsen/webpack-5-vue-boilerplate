@@ -8,7 +8,7 @@
 				
                 
                 <div class="test"><b>Last Updated: </b></div>
-                - 02-09-2025 <br /> <br />
+                - 30-11-2025 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
